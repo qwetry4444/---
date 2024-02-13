@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 set dirName=%1
-set dirPath="C:\Users\Maks\Desktop\uni_sem4\os\12\%dirName%"
+set dirPath="%dirName%"
 
 set filesCount=0
 for %%i in ("%dirPath%\*") do (
